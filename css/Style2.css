@@ -1,0 +1,208 @@
+html{
+	margin:0;
+	padding: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+button[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: red;
+}
+
+
+/* Create two columns that float next to eachother */
+.column {
+  float: right;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+.column img{
+	height: 480px;
+	margin: 0;
+	padding: 0;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+body {
+  background-color : white;
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment:fixed;
+}
+h2 {
+	color : black;
+}
+
+p{
+	color : red;
+}
+label{
+	color : black;
+}
+html{
+	margin:0;
+	padding: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+body {
+  
+  
+ 	background: white; 
+
+  
+ 	 background-position: center;
+ 
+ 	 margin:0;
+	padding: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: block;
+	width:100%;
+}
+
+p {
+  font-family: verdana;
+  font-size: 13px;
+  color: red;
+
+}
+
+
+
+
+/* menu deroulant principal */
+
+/* Fin Menu vertical */
+
+
+/* section */
+
+section {
+	float: center;
+	padding :0px;
+	margin: 0px 300px ;
+	display: block;
+	width: 60%;
+}
+
+#section ul {
+	
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	
+}
+#section li {
+	display: inline-block;
+	padding: 0;
+	margin: 0px 20px 0px 0px;
+	width: auto;
+	height: auto;
+	text-align: center;
+	line-height: 40px;
+	
+	
+}
+
+
+
+
+/* fin section */
+
+
+/* Footer */
+.footer {
+	background-color: black;
+	width: 100%;
+	margin:80px 0px 0px 0px;
+	padding: 0;
+	display: block;
+	height: 170px;
+	line-height: 60px;
+}
+
+
+#fmenu li {
+	display: inline-block;
+	padding: 0;
+	margin: 0px 10px 0px 0px;
+	width: auto;
+	height: 15px;
+	text-align: center;
+	
+	
+	
+}
+#fmenu li a {
+	display: inline-block;
+	color: white;
+	font-size: 13px;
+	
+}
+
+
+/* Fin footer */
+
+.color{
+	background-color:grey;
+  }
+  .color2{
+	background-color: black;
+  }
+  .color3{
+	color:red;
+  }
+
+  .button {
+    background-color:red; /* Green */
+    border: black;
+    color: black;
+    padding: 11px 27.5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    
+  }
